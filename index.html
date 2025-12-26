@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS MINI PRACTICS</title>
+</head>
+
+<body>
+    <!-- BULB -->
+    <h1>BULB</h1>
+    <img id="bulb" src="https://www.w3schools.com/js/pic_bulboff.gif" alt=""><br>
+    <button onclick="trunOnBulb()">Turn ON</button>
+    <button onclick="trunOffBulb()">Turn OFF</button>
+    <h1 id="sts">OFF</h1>
+    <hr>
+
+    <!-- Rolling Dice  -->
+    <h1>Rolling Dice</h1>
+    <img id="dice" src="https://www.shutterstock.com/pixelsquid/assets_v2/190/1900708295316871047/jpeg-600/G03.jpg"
+        alt="" height="100" width="100"><br>
+    <button onclick="rollDice()">Roll Dice</button>
+    <h1 id="diceNo">-</h1>
+    <hr>
+
+    <!-- strong Password Generator -->
+    <h1>strong Password Generator </h1>
+    <form onsubmit="generateMyStrongPassword(event)">
+        <input type="number" id="passLenght" placeholder="Enter Password Lenght">
+        <input type="submit" value="Generte Password"/>
+    </form>
+    <h1 id="generted-password">Generted Password</h1>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
